@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+ipykernel
+scikit-learn 
+jupyter 
+fastapi 
+uvicorn 
+streamlit 
+shap
