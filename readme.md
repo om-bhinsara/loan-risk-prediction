@@ -113,35 +113,29 @@ Users can input applicant information and receive an instant prediction on wheth
 ```bash
 streamlit run app/streamlit_app.py
 
----
-
-## Project Structure
-
 ```
-loan-risk-prediction
-│
-├── api
-│   └── main.py
-│
-├── app
-│   └── streamlit_app.py
-│
-├── data
-|   └── raw
-|   └── processed
-│
-├── models
-│   ├── svm_model.pkl
-│   └── scaler.pkl
-│
-├── notebooks
-│   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_model_training.ipynb
-│
-├── requirements.txt
-└── README.md
-```
+## 📁 Project Structure  
+
+📦 **loan-risk-prediction**  
+┣ 📂 app  
+┃ ┗ 📄 streamlit_app.py  
+┣ 📂 data  
+┃ ┣ 📂 processed  
+┃ ┃ ┣ 📄 loan_processed.csv  
+┃ ┃ ┣ 📄 test_data.csv  
+┃ ┃ ┗ 📄 train_balanced.csv  
+┃ ┗ 📂 raw  
+┃   ┗ 📄 loan_approval_dataset.csv  
+┣ 📂 models  
+┃ ┣ 📄 scaler.pkl  
+┃ ┗ 📄 svm_model.pkl  
+┣ 📂 notebooks  
+┃ ┣ 📄 01_eda.ipynb  
+┃ ┣ 📄 02_feature_engineering.ipynb  
+┃ ┗ 📄 03_model_training.ipynb  
+┣ 📄 requirements.txt  
+┣ 📄 README.md  
+┗ 📄 .gitignore
 
 ---
 
