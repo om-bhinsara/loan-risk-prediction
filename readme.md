@@ -9,12 +9,12 @@
 
 ## Project Highlights
 
-✔ End-to-end Machine Learning pipeline\  
+✔ End-to-end Machine Learning pipeline 
 ✔ Feature Engineering for financial risk indicators\
 ✔ Handling imbalanced data using SMOTE\
 ✔ Hyperparameter tuning using GridSearchCV\
 ✔ Streamlit dashboard for real-time prediction\
-✔ Achieved **95.6% accuracy using SVM**\
+✔ Achieved **95.6% accuracy using SVM**
 
 ---
 
