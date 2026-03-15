@@ -9,7 +9,7 @@
 
 ## Project Highlights
 
-✔ End-to-end Machine Learning pipeline 
+✔ End-to-end Machine Learning pipeline\ 
 ✔ Feature Engineering for financial risk indicators\
 ✔ Handling imbalanced data using SMOTE\
 ✔ Hyperparameter tuning using GridSearchCV\
