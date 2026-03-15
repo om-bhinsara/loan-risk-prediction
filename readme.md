@@ -110,9 +110,10 @@ Hyperparameter tuning was applied using **GridSearchCV** to improve model perfor
 
 | Model                        | Accuracy  |
 | ---------------------------- | --------- |
-| Logistic Regression          | ~91%      |
-| K-Nearest Neighbors (KNN)    | ~92%      |
+| Logistic Regression          | ~92.03%   |
+| K-Nearest Neighbors (KNN)    | ~87.82%   |
 | Support Vector Machine (SVM) | **95.6%** |
+
 
 Evaluation metrics used:
 
