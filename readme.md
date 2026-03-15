@@ -9,7 +9,7 @@
 
 ## Project Highlights
 
-✔ End-to-end Machine Learning pipeline
+✔ End-to-end Machine Learning pipeline  
 ✔ Feature Engineering for financial risk indicators
 ✔ Handling imbalanced data using SMOTE
 ✔ Hyperparameter tuning using GridSearchCV
@@ -170,25 +170,25 @@ streamlit run app/streamlit_app.py
 
 ## 📁 Project Structure
 
-📦 **loan-risk-prediction**
-┣ 📂 app
-┃ ┗ 📄 streamlit_app.py
-┣ 📂 data
-┃ ┣ 📂 processed
-┃ ┃ ┣ 📄 loan_processed.csv
-┃ ┃ ┣ 📄 test_data.csv
-┃ ┃ ┗ 📄 train_balanced.csv
-┃ ┗ 📂 raw
-┃   ┗ 📄 loan_approval_dataset.csv
-┣ 📂 models
-┃ ┣ 📄 scaler.pkl
-┃ ┗ 📄 svm_model.pkl
-┣ 📂 notebooks
-┃ ┣ 📄 01_eda.ipynb
-┃ ┣ 📄 02_feature_engineering.ipynb
-┃ ┗ 📄 03_model_training.ipynb
-┣ 📄 requirements.txt
-┣ 📄 README.md
+📦 loan-risk-prediction\
+┣ 📂 app\
+┃ ┗ 📄 streamlit_app.py\
+┣ 📂 data\
+┃ ┣ 📂 processed\
+┃ ┃ ┣ 📄 loan_processed.csv\
+┃ ┃ ┣ 📄 test_data.csv\
+┃ ┃ ┗ 📄 train_balanced.csv\
+┃ ┗ 📂 raw\
+┃ ┗ 📄 loan_approval_dataset.csv\
+┣ 📂 models\
+┃ ┣ 📄 scaler.pkl\
+┃ ┗ 📄 svm_model.pkl\
+┣ 📂 notebooks\
+┃ ┣ 📄 01_eda.ipynb\
+┃ ┣ 📄 02_feature_engineering.ipynb\
+┃ ┗ 📄 03_model_training.ipynb\
+┣ 📄 requirements.txt\
+┣ 📄 README.md\
 ┗ 📄 .gitignore
 
 ---
