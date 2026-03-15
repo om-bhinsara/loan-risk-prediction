@@ -1,4 +1,22 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Framework](https://img.shields.io/badge/Frontend-Streamlit-red)
+![Model](https://img.shields.io/badge/Model-SVM-green)
+![Accuracy](https://img.shields.io/badge/Accuracy-95.6%25-brightgreen)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 # Loan Risk Prediction System
+
+## Project Highlights
+
+✔ End-to-end Machine Learning pipeline
+✔ Feature Engineering for financial risk indicators
+✔ Handling imbalanced data using SMOTE
+✔ Hyperparameter tuning using GridSearchCV
+✔ Streamlit dashboard for real-time prediction
+✔ Achieved **95.6% accuracy using SVM**
+
+---
 
 ## Project Overview
 
@@ -88,17 +106,41 @@ Hyperparameter tuning was applied using **GridSearchCV** to improve model perfor
 
 ---
 
-## Model Evaluation
+## Model Performance
 
-The model was evaluated using:
+| Model                        | Accuracy  |
+| ---------------------------- | --------- |
+| Logistic Regression          | ~91%      |
+| K-Nearest Neighbors (KNN)    | ~92%      |
+| Support Vector Machine (SVM) | **95.6%** |
+
+Evaluation metrics used:
 
 * Accuracy
 * Precision
 * Recall
-* F1-score
+* F1 Score
 * Confusion Matrix
 
 These metrics ensure balanced performance across both loan approval and rejection classes.
+
+---
+
+## System Architecture
+
+The overall system workflow is shown below:
+
+```
+User Input (Streamlit Dashboard)
+        ↓
+Feature Engineering
+        ↓
+Standard Scaler
+        ↓
+SVM Model
+        ↓
+Loan Eligibility Prediction
+```
 
 ---
 
@@ -108,33 +150,45 @@ A Streamlit dashboard was developed to allow users to interact with the trained 
 
 Users can input applicant information and receive an instant prediction on whether a loan can be given to the applicant.
 
+### Streamlit Dashboard
+
+![Dashboard](screenshots/Dashboard_1.png)
+
+### Prediction Example
+
+![Prediction Example](screenshots/Dashboard_2.png)
+
+---
+
 ### Run the Streamlit App
 
-```bash
-streamlit run app/streamlit_app.py
-
 ```
-## 📁 Project Structure  
+streamlit run app/streamlit_app.py
+```
 
-📦 **loan-risk-prediction**  
-┣ 📂 app  
-┃ ┗ 📄 streamlit_app.py  
-┣ 📂 data  
-┃ ┣ 📂 processed  
-┃ ┃ ┣ 📄 loan_processed.csv  
-┃ ┃ ┣ 📄 test_data.csv  
-┃ ┃ ┗ 📄 train_balanced.csv  
-┃ ┗ 📂 raw  
-┃   ┗ 📄 loan_approval_dataset.csv  
-┣ 📂 models  
-┃ ┣ 📄 scaler.pkl  
-┃ ┗ 📄 svm_model.pkl  
-┣ 📂 notebooks  
-┃ ┣ 📄 01_eda.ipynb  
-┃ ┣ 📄 02_feature_engineering.ipynb  
-┃ ┗ 📄 03_model_training.ipynb  
-┣ 📄 requirements.txt  
-┣ 📄 README.md  
+---
+
+## 📁 Project Structure
+
+📦 **loan-risk-prediction**
+┣ 📂 app
+┃ ┗ 📄 streamlit_app.py
+┣ 📂 data
+┃ ┣ 📂 processed
+┃ ┃ ┣ 📄 loan_processed.csv
+┃ ┃ ┣ 📄 test_data.csv
+┃ ┃ ┗ 📄 train_balanced.csv
+┃ ┗ 📂 raw
+┃   ┗ 📄 loan_approval_dataset.csv
+┣ 📂 models
+┃ ┣ 📄 scaler.pkl
+┃ ┗ 📄 svm_model.pkl
+┣ 📂 notebooks
+┃ ┣ 📄 01_eda.ipynb
+┃ ┣ 📄 02_feature_engineering.ipynb
+┃ ┗ 📄 03_model_training.ipynb
+┣ 📄 requirements.txt
+┣ 📄 README.md
 ┗ 📄 .gitignore
 
 ---
